@@ -1,0 +1,43 @@
+.calc{
+    height: 650px;
+    width: 450px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: #474342;
+    border-radius: 10px;
+}
+.parent{
+    height: 198px;
+}
+.child{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.btn{
+    width: 108px;
+    height: 90px;
+    background-color: #732d1c;
+    border-radius: 10px;
+}
+.equal{
+    width: 220px;
+    height: 90px;
+    background-color: #732d1c;
+    border-radius: 10px;
+}
+.front{
+    height: 192px;
+    width: 442px;
+}
+input[type="text"]
+{
+    font-size:45px;
+    background-color: antiquewhite;
+}
+input[value]
+{
+    color: whitesmoke;
+    font-size: medium;
+}
